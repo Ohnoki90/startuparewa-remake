@@ -16,46 +16,93 @@
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
     <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css\plugins\bootstrap.min.css">
+  <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap"
+      rel="stylesheet">
+
+    <link rel="stylesheet" href="css\plugins\fontawesome-all.min.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css\plugins\owl.carousel.min.css">
+    <!-- Animated CSS -->
+    <link rel="stylesheet" href="css\plugins\animate.css">
+    <link rel="stylesheet" href="css\plugins\owl.theme.default.min.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css\main.css">
 
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
   
-  <div class="site-wrap bg-light">
+  <div class="site-wrap bg-white">
 
-    <div class="site-mobile-menu">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
+   <!-- ========== Start Navbar ========== -->
+  <!-- header start -->
+  <div class="header-classic fixed-top wow fadeInDown">
+    <!-- navigation start -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+          <nav class="navbar navbar-expand-lg navbar-classic">
+            <a class="navbar-brand" href="../index.htm">
+              <img src="../Assets/startup-logo.png" alt=""></a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-classic"
+              aria-controls="navbar-classic" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="icon-bar top-bar mt-0"></span>
+              <span class="icon-bar middle-bar"></span>
+              <span class="icon-bar bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-classic">
+              <ul class="navbar-nav ml-auto mt-2 mt-lg-0 mr-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.htm">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="menu-1" data-toggle="dropdown" aria-haspopup="true"
+                      aria-expanded="false">
+                      Community
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="menu-1">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          WENTCH</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Arewa Hubs</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Register Profile</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Forums</a>
+                      </li>
+                    </ul>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../about/index.htm">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./blog.html">Blog </a>
+                </li>
+              </ul>
+              <a href="../contact/index.html" class="btn btn-brand btn-rounded btn-sm">Contact Us</a>
+            </div>
+          </nav>
         </div>
       </div>
-      <div class="site-mobile-menu-body"></div>
     </div>
-    
-    <header class="site-navbar bg-light" role="banner">
-      <div class="container-fluid">
-        <div class="row align-items-center">
-          <div class="col-4 site-logo">
-            <a href="index.html" class="m-1"><img src="./images/startup-logo.svg"/></a>
-          </div>
-
-          <div class="col-8 text-right">
-            <nav class="site-navigation" role="navigation">
-              <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block mb-0">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Community</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html" class="contact-btn">Contact Us</a></li>
-              </ul>
-            </nav>
-          </div>
-      </div>
-    </header>
+    <!-- navigation close -->
+  </div>
+  <!-- header close -->
+  <!-- ========== End Navbar ========== -->
     
     
-    <div class="py-5 bg-light">
-      <div class="container">
+    <div class="py-5 bg-light heading-section">
+      <div class="container wow fadeInUp">
         <div class="row">
           <div class="col-md-6">
             <span>Category</span>
@@ -252,51 +299,75 @@
     
     
     
-  <div class="site-footer p-0 pt-3">
-    <div class="container">
-      <div class="row mb-0">
+  <!-- ========== Start Footer ========== -->
+  <footer class="footer">
+    <div class="container wow fadeInUp">
+      <div class="row">
+        <!-- Who -->
+        <a href="../index.htm" rel="noopener">
+          <div class="col-md-3">
+            <div class="who">
+              <img src="../Assets/startup-logo.svg" alt="sitelogo">
+            </div>
+          </div>
+        </a>
+        <!-- Links -->
         <div class="col-md-3">
-         <img src="./images/startup-logo.svg" style="width: 12em; height: 10em;"/>
+          <div class="links">
+            <ul>
+              <li>
+                <a href="../events/index.htm">Events</a>
+              </li>
+              <li>
+                <a href="../about/index.htm#services">Services</a>
+              </li>
+              <li>
+                <a href="#">Forums</a>
+              </li>
+              <li>
+                <a href="#">Arewa Hubs</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col-md-3 justify-content-between row ml-auto mr-5">
-          <!-- <h3 class="footer-heading mb-4">Navigation</h3> -->
-          <ul class="list-unstyled float-left ">
-            <h4>Community</h4>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Sevices</a></li>
-            <li><a href="#">Forums</a></li>
-            <li><a href="#">Arewa Hubs</a></li>
-          </ul>
-          <ul class="list-unstyled float-left">
-            <h4>About Us </h4>
-            <li><a href="team.html">Our Team</a></li>
-            <li><a href="#">Plan & Pricing</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="#">News</a></li>
-          </ul>
+        <!-- Links -->
+        <div class="col-md-3">
+          <div class="links">
+            <ul>
+              <li>
+                <a href="../team/index.htm">Our Team</a>
+              </li>
+              <li>
+                <a href="../index.htm#pricing">Plans & Pricing</a>
+              </li>
+              <li>
+                <a href="../blog/blog.html">Blog</a>
+              </li>
+              <li>
+                <a href="#">News</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="row pt-0 pb-0 mb-0 border-top">
-        <div class="col-3 text-center">
-          <p>
-            Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved
-            </p>
-        </div>
-
-        <div class="col-md-3 ml-auto">
-          <div>
-            <p class="footer-links">
-              <a href="#"><span class="icon-facebook pt-2 pr-2 pb-2 pl-0"></span></a>
-              <a href="#"><span class="icon-twitter p-2"></span></a>
-              <a href="#"><span class="icon-instagram p-2"></span></a>
-              <a href="#"><span class="icon-linkedin p-2"></span></a>
-              <a href="#"><span class="icon-envelope p-2"></span></a>
-            </p>
+        <!-- Social -->
+        <div class="col-md-3 col-lg-3 col-sm-3">
+          <div class="social">
+            <h3>Social Media</h3>
+            <div class="icon"><a href="#0"><i class="fab fa-twitter"></i></a></div>
+            <div class="icon"><a href="#0"><i class="fab fa-linkedin-in"></i></a></div>
+            <div class="icon"><a href="#0"><i class="fab fa-instagram"></i></a></div>
+            <div class="icon"><a href="#0"><i class="fab fa-facebook-f"></i></a></div>
           </div>
         </div>
       </div>
     </div>
+  </footer>
+  <div class="bottom">
+    Copyright &copy; <script>
+      document.write(new Date().getFullYear());
+    </script> Startup Arewa, All rights reserved
   </div>
+  <!-- ========== End Footer ========== -->
     
   </div>
 
