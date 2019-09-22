@@ -1,0 +1,11 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1266.229" height="1673.273" viewBox="0 0 1266.229 1673.273">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#edf8fa"/>
+      <stop offset="1" stop-color="#eeedfd"/>
+    </linearGradient>
+  </defs>
+  <g id="OBJECTS" transform="translate(0 0)">
+    <path id="Path_942" data-name="Path 942" d="M262.387,135.978C213.716,282.025,423.426,441.5,179.5,671.247,23.439,818.218-102.536,1083.49,121.029,1374.8s580.707,345.774,1003.466,264.065-252.234-330.391-74.6-767.36,8.278-664.335-280.051-788.676S316.848-27.442,262.387,135.978Z" transform="translate(-0.003 -0.02)" opacity="0.74" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

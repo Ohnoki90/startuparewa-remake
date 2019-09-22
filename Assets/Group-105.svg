@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1552.508" height="909.127" viewBox="0 0 1552.508 909.127">
+  <g id="Group_105" data-name="Group 105" transform="translate(-156.05 -106.619)">
+    <ellipse id="Ellipse_40" data-name="Ellipse 40" cx="11.241" cy="11.241" rx="11.241" ry="11.241" transform="translate(1686.076 735.629)" fill="#feb053"/>
+    <ellipse id="Ellipse_42" data-name="Ellipse 42" cx="11.241" cy="11.241" rx="11.241" ry="11.241" transform="translate(1396.105 228.443)" fill="#e7df56"/>
+    <g id="Group_58" data-name="Group 58">
+      <g id="Group_40" data-name="Group 40">
+        <path id="Path_342" data-name="Path 342" d="M38.979,37.369a1.9,1.9,0,0,1-1.9-1.9V1.9a1.9,1.9,0,1,1,3.8,0V35.47A1.9,1.9,0,0,1,38.979,37.369Z" transform="translate(822.883 240)" fill="#fe8266"/>
+        <path id="Path_343" data-name="Path 343" d="M70.34,6.008H36.769a1.9,1.9,0,1,1,0-3.8H70.34a1.9,1.9,0,0,1,0,3.8Z" transform="translate(808.307 254.576)" fill="#fe8266"/>
+      </g>
+    </g>
+    <path id="Path_227" data-name="Path 227" d="M77.5,133.65a20.1,20.1,0,1,1,20.1-20.1,20.1,20.1,0,0,1-20.1,20.1Zm0-36.412a16.235,16.235,0,1,0,16.235,16.235A16.235,16.235,0,0,0,77.5,97.238Z" transform="translate(795.47 882.096)" fill="#1335ff"/>
+    <ellipse id="Ellipse_28" data-name="Ellipse 28" cx="14.534" cy="14.534" rx="14.534" ry="14.534" transform="translate(156.05 900.536)" fill="#a547ff"/>
+    <g id="Group_59" data-name="Group 59">
+      <path id="Path_228" data-name="Path 228" d="M16.38,189.832a1.08,1.08,0,0,1-1.08-1.08V158.52a1.08,1.08,0,1,1,2.159,0v30.233A1.08,1.08,0,0,1,16.38,189.832Z" transform="translate(298.128 132.796) rotate(45)" fill="#d04dff"/>
+      <path id="Path_229" data-name="Path 229" d="M43.408,163.079H12.83a1.08,1.08,0,1,1,0-2.159H43.063a1.08,1.08,0,1,1,0,2.159Z" transform="translate(281.622 132.635) rotate(45)" fill="#d04dff"/>
+    </g>
+    <ellipse id="Ellipse_44" data-name="Ellipse 44" cx="14.534" cy="14.534" rx="14.534" ry="14.534" transform="translate(609.412 106.619)" fill="#e3de55" opacity="0.35"/>
+  </g>
+</svg>
