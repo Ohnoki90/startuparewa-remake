@@ -63,7 +63,7 @@ body {
 }
 /*-----------------  Headers ---------------------------------*/
 .header-classic {
-	background-color: #fafbfe;
+	background-color: #ffff;
 	transition: all .3s ease-in-out;
 }
 .header-classic:hover {
@@ -978,7 +978,7 @@ a.navbar-brand {
 
 @media only screen and (min-width: 1360px) {
 	.heading-container {
-		background-image: url('../../../Assets/Path 622.svg');
+		background-image: url('../../Assets/Path622.svg');
 		background-repeat: no-repeat;
 		background-size: 80%;
 		background-position-x: -5px;
